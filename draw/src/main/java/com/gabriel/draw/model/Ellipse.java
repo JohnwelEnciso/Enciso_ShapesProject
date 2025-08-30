@@ -1,6 +1,7 @@
 package com.gabriel.draw.model;
 
 
+import com.gabriel.draw.service.EllipseRendererService;
 import com.gabriel.draw.service.LineRendererService;
 import lombok.Data;
 import com.gabriel.drawfx.model.Shape;
@@ -14,6 +15,6 @@ public class Ellipse extends Shape {
         super(start);
         this.setEnd(end);
         this.setColor(Color.RED);
-        this.setRendererService(new LineRendererService());
+        this.setRendererService(new EllipseRendererService());
     }
 }

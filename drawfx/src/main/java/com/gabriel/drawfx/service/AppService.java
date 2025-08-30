@@ -8,6 +8,7 @@ import java.awt.*;
 
 public interface AppService {
     ShapeMode getShapeMode();
+
     void setShapeMode(ShapeMode shapeMode);
 
     DrawMode getDrawMode();
